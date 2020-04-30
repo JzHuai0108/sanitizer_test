@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # address sanitizers.
-include(../msckf_ws/src/cmake-scripts/sanitizers.cmake)
+include(cmake_scripts/sanitizers.cmake)
 
 add_executable(sanitizer_test main.cpp)
